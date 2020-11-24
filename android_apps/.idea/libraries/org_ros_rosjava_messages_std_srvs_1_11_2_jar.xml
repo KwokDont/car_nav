@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.ros.rosjava_messages:std_srvs:1.11.2@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/std_srvs/1.11.2/955f46f6f68edc69a1b3394e531e65577ea0030e/std_srvs-1.11.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

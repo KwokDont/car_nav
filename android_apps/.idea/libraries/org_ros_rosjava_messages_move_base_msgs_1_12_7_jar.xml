@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.ros.rosjava_messages:move_base_msgs:1.12.7@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/move_base_msgs/1.12.7/8e832e766deac7c78e43e7c3075c2a3752d8261/move_base_msgs-1.12.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

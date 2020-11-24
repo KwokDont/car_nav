@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "org.ollide.rosandroid"
+        // Android 4.0+ http://dannyroa.com/2013/10/17/why-its-time-to-support-only-android-4-0-and-above
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        /* https://github.com/rosjava/android_core/issues/194 */
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+dependencies {
+    compile 'com.github.rosjava.android_remocons:common_tools:[0.2,0.3)'
+    compile 'org.ros.android_core:android_15:[0.3,0.4)'
+    compile 'org.ros.rosjava_core:rosjava_geometry:[0.3,0.4)'
+    compile 'org.ros.rosjava_messages:map_store:[0.3,0.4)'
+    compile 'org.ros.rosjava_messages:move_base_msgs:[1.12,1.13)'
+    compile 'org.ros.rosjava_messages:world_canvas_msgs:[0.2,0.3)'
+
+}

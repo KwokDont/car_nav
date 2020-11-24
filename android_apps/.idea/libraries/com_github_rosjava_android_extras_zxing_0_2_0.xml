@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.github.rosjava.android_extras:zxing-0.2.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/zxing-0.2.0.aar/9e777c9e0c795d02cda60ce565827b3c/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/zxing-0.2.0.aar/9e777c9e0c795d02cda60ce565827b3c/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

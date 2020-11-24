@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android_apps.iml" filepath="$PROJECT_DIR$/android_apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/miiboo/miiboo.iml" filepath="$PROJECT_DIR$/miiboo/miiboo.iml" />
+      <module fileurl="file://D:\CA\android_apps\miiboo\rosandroid-example-app.iml" filepath="D:\CA\android_apps\miiboo\rosandroid-example-app.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ros_introduction">This is an example application from github.com/ollide/rosjava_android_template!\n\nIf you\'re connected to a running ROS master, the SimplePublisherNode publishes the current time every second to the /time topic. Execute \'rostopic echo /time\' to validate that everything\'s working as expected.</string>
+    <string name="app_name">miiboo</string>
+    <string name="stop_app">Kill</string>
+    <string name="default_robot"></string>
+    <string name="default_app">pibot_apps/android_map_nav</string>
+    <string name="map_frame">map</string>
+    <string name="robot_frame">base_link</string>
+    <string name="camera_topic">/usb_cam/image_raw/compressed</string>
+    <string name="joystick_topic">cmd_vel</string>
+    <string name="map_topic">map</string>
+    <string name="costmap_topic">/move_base/local_costmap/costmap</string>
+    <string name="scan_topic">scan</string>
+    <string name="global_plan_topic">/move_base/GlobalPlanner/plan</string>
+    <string name="initial_pose_topic">initialpose</string>
+    <string name="simple_goal_topic">move_base_simple/goal</string>
+    <string name="move_base_goal_topic">move_base/goal</string>
+</resources>
