@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws_nav/install
+
+Name: nav_core
+Description: Description of nav_core
+Version: 1.14.4
+Cflags: -I/home/ubuntu/catkin_ws_nav/install/include
+Libs: -L/home/ubuntu/catkin_ws_nav/install/lib 
+Requires: std_msgs geometry_msgs tf costmap_2d

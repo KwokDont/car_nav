@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws_nav/install
+
+Name: miiboo_nav
+Description: Description of miiboo_nav
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ubuntu/catkin_ws_nav/install/lib 
+Requires: 

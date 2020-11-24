@@ -1,0 +1,2 @@
+broadcast_ip:miiboo/miiboo_bringup:miiboo/miiboo_description:miiboo_imu:usb_cam:ydlidar
+-DCATKIN_WHITELIST_PACKAGES=usb_cam -DCATKIN_DEVEL_PREFIX=/home/ubuntu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/catkin_ws/install -G Unix Makefiles

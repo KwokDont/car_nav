@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws_nav/devel
+
+Name: rotate_recovery
+Description: Description of rotate_recovery
+Version: 1.14.4
+Cflags: -I/home/ubuntu/catkin_ws_nav/src/navigation-kinetic-devel/rotate_recovery/include
+Libs: -L/home/ubuntu/catkin_ws_nav/devel/lib -lrotate_recovery
+Requires: roscpp pluginlib

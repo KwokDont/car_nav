@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/catkin_ws/src/broadcast_ip/src/broadcast_udp.cpp
+stdio.h
+-
+stdlib.h
+-
+errno.h
+-
+string.h
+-
+sys/types.h
+-
+netinet/in.h
+-
+sys/socket.h
+-
+sys/wait.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+

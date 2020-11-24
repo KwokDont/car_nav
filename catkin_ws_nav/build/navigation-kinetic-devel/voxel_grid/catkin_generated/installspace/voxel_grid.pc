@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws_nav/install
+
+Name: voxel_grid
+Description: Description of voxel_grid
+Version: 1.14.4
+Cflags: -I/home/ubuntu/catkin_ws_nav/install/include
+Libs: -L/home/ubuntu/catkin_ws_nav/install/lib -lvoxel_grid
+Requires: roscpp

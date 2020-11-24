@@ -1,0 +1,2 @@
+miiboo_asr:patrol
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/catkin_ws_apps/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/catkin_ws_apps/install -G Unix Makefiles
